@@ -95,6 +95,7 @@ class InflightSelfiePipeline:
             "h94/IP-Adapter-FaceID",
             subfolder="",
             weight_name="ip-adapter-faceid_sdxl.bin",
+            image_encoder_folder=None,
         )
 
         # Enable memory optimizations
