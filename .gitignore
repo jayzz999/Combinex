@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.env.local
+
+# Models (large files)
+models/
+*.bin
+*.safetensors
+*.onnx
+*.pth
+*.pt
+
+# Dataset
+dataset/images/*.jpg
+dataset/images/*.png
+dataset/face_refs/*.jpg
+dataset/face_refs/*.png
+
+# Outputs
+outputs/
+*.png
+*.jpg
+test_output.*
+api_test_output.*
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Google Colab
+*.ipynb.tmp
+
+# Compressed
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Claude settings
+.claude/
+
+# Keep structure
+!.gitkeep

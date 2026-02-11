@@ -1,0 +1,39 @@
+# Inflight Selfie Generator - Google Colab Training Requirements
+# Install in Colab for fine-tuning
+
+# Core (usually pre-installed in Colab)
+torch
+torchvision
+torchaudio
+
+# Diffusion
+diffusers
+transformers
+accelerate
+safetensors
+peft
+
+# Face Analysis
+insightface
+onnxruntime-gpu
+opencv-python
+
+# Image Processing
+Pillow
+numpy
+
+# Hugging Face
+huggingface-hub
+
+# Fine-tuning (Colab-specific)
+unsloth  # Optimized LLM training
+datasets  # Hugging Face datasets
+trl  # Transformer Reinforcement Learning
+bitsandbytes  # 4-bit quantization
+
+# Demo Interface
+gradio>=4.0.0
+
+# Utilities
+scipy
+scikit-image

@@ -1,0 +1,38 @@
+# Inflight Selfie Generator - Backend Requirements
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Diffusion Models
+diffusers>=0.25.0
+transformers>=4.36.0
+accelerate>=0.25.0
+safetensors>=0.4.0
+peft>=0.7.0
+
+# Face Analysis
+insightface>=0.7.3
+onnxruntime-gpu>=1.16.0  # Use onnxruntime for CPU-only
+opencv-python-headless>=4.8.0
+
+# Image Processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Web Framework
+fastapi>=0.108.0
+uvicorn[standard]>=0.25.0
+python-multipart>=0.0.6
+
+# Utilities
+huggingface-hub>=0.19.0
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# Optional: For fine-tuning (install separately in Colab)
+# unsloth
+# datasets
+# trl
+# bitsandbytes
