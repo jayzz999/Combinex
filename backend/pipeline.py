@@ -88,10 +88,12 @@ class InflightSelfiePipeline:
         self.pipe.scheduler = DDIMScheduler.from_config(self.pipe.scheduler.config)
 
         # Load IP-Adapter-FaceID
+        # NOTE: subfolder must be "" not None — newer diffusers passes it to
+        # pathlib.Path() which raises TypeError on None.
         print("    Loading IP-Adapter-FaceID...")
         self.pipe.load_ip_adapter(
             "h94/IP-Adapter-FaceID",
-            subfolder=None,
+            subfolder="",
             weight_name="ip-adapter-faceid_sdxl.bin",
         )
 
